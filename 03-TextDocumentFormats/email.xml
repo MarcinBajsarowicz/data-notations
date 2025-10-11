@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taskemail>
+<emailsender>bajsarowiczmarcin@gmail.com </emailsender>
+<emailreceiver>agnieszka.bajsarowicz@wp.pl</emailreceiver>
+<emailsubject>Test email</emailsubject>
+<emailbody>To jest testowa wiadomość email.</emailbody>
+<emailfooter>Pozdrawiam, Marcin Bajsarowicz</emailfooter>
+</taskemail>

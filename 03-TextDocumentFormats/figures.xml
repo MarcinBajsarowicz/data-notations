@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geometricFigures>
+    <figure>
+        <name>Circle</name>
+        <type>2D</type>
+        <properties>
+            <property>Radius</property>
+            <property>Diameter</property>
+        </properties>
+        <formulas>
+            <area>π * radius^2</area>
+            <perimeter>2 * π * radius</perimeter>
+        </formulas>
+    </figure>
+    <figure>
+        <name>Square</name>
+        <type>2D</type>
+        <properties>
+            <property>Side Length</property>
+        </properties>
+        <formulas>
+            <area>side^2</area>
+            <perimeter>4 * side</perimeter>
+        </formulas>
+    </figure>
+    <figure>
+             <name>triangle</name>
+                <type>2D</type> 
+                <properties>
+                    <property>Sum of anglesq</property>
+                    </properties>
+                    <formulas>
+                        <area>1/2 * base * height</area>
+                        <perimeter>side1 + side2 + side3</perimeter>
+                    </formulas>
+            </figure>
+            <name>pentagon </name>
+                <type>2D</type>
+                <properties>
+                    <property>side and angle</property>
+                </properties>
+                    <formulas>
+                        <area>1/4 * √(5(5 + 2√5)) * side^2</area>
+                        <perimeter>5 * side</perimeter>
+                    </formulas>
+            <figure>hexagon</figure>
+                    <type>2D</type>
+                    <properties>
+                        <property>side and angle</property>
+                    </properties>
+                    <formulas>
+                        <area>(3√3 / 2) * side^2</area>
+                        <perimeter>6 * side</perimeter>
+                    </formulas>
+            </figure>
+</geometricFigures>

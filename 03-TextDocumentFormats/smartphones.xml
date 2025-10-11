@@ -9,4 +9,16 @@
         </specs>
         <price currency="USD">799</price>
     </smartphone>
+    <smartphone>
+        <brand>Apple</brand>
+        <model>iPhone 14 Plus</model>
+        <releaseYear>2022</releaseYear>
+        <specs>
+            <screenSize unit="inch">6.3</screenSize>
+            <batteryCapacity unit="mAh">3200</batteryCapacity>
+            <storage unit="GB">256</storage>
+            <camera unit="MP">48</camera>
+        </specs>
+        <price currency="USD">699</price>
+</smartphone>
 </smartphones>

@@ -1,0 +1,11 @@
+ID	Name	Age	Grade	Email
+1	John Doe	20	A	johndoe@university.edu
+2	Jane Smith	21	B	janesmith@university.edu
+3	Mike Oxlong	21	C	mikeoxlong@university.edu
+4	Alice Johnson	19	A	alicejohnson@university.edu
+5	Bob Brown	20	B	bobbrown@university.edu
+6	Emma Wilson	18	F	emmawilson@university.edu
+7	Chris Lee	22	D	chrislee@university.edu 
+8	Anna Scott	23	C	annascott@university.edu
+9	David Brown	21	B	davidbrown@university.edu
+10	Julie Beker 	24	A	juliebaker@university.edu

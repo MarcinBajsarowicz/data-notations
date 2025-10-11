@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeoftransports>
+    <tansport>Plane
+        <safety>The most safest type of transport in the world</safety>
+        <speed>900 km/h</speed>
+        <cost>Expensive</cost>
+    </tansport>
+    <transport>Train
+        <safety>Very safe</safety>
+        <speed>300 km/h</speed>
+        <cost>Affordable</cost>
+    </transport>
+    <transport>Car
+        <safety>Depends on the driver</safety>
+        <speed>100-250 km/h</speed>
+        <cost>Varies widely</cost>
+    </transport>
+    <transport>Bicycle</transport>
+        <safety>Safe if rules are followed</safety>
+        <speed>15-30 km/h</speed>
+        <cost>Very cheap</cost>
+</typeoftransports>
