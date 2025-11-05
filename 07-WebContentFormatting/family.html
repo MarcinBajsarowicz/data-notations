@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Information Form</title>
+</head>
 <style>
     body {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -22,6 +30,7 @@
         border: 1px solid #cccccc; 
         padding: 5px;
         border-radius: 4px;
+        width: 100%;
     }
 
     /* Zapewnienie lepszego wizualnego feedbacku przy kliknięciu/focusie */
@@ -33,3 +42,52 @@
         box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
     }
 </style>
+<body>
+
+    <h2>Family Information Form</h2>
+
+    <form action="#" method="post">
+        <div>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+
+        <div>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+            <label for="relationship">Relationship to You:</label>
+            <select id="relationship" name="relationship" required>
+                <option value="">Select Relationship</option>
+                <option value="parent">Parent</option>
+                <option value="sibling">Sibling</option>
+                <option value="child">Child</option>
+                <option value="spouse">Spouse</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </div>
+
+        <div>
+            <label for="notes">Additional Information:</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
