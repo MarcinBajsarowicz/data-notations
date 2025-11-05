@@ -1,58 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<style>
+    body {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    form {
+        margin-bottom: 50px;
+    }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Family Information Form</title>
-</head>
+    /* Target the Submit button */
+    input[type="submit"] {
+        background-color: green;
+        color: white; /* Ustawienie białego tekstu, żeby był widoczny */
+        padding: 10px 15px; /* Dodatkowe wypełnienie dla lepszego wyglądu */
+        border: none; /* Usunięcie domyślnej ramki z przycisku */
+        cursor: pointer; /* Zmiana kursora na wskaźnik */
+    }
 
-<body>
+    /* ➡️ POPRAWIONA DEFINICJA BORDER DLA PÓL WEJŚCIA ⬅️ */
+    input, select, textarea {
+        /* Wymaga 3 wartości: szerokość (np. 1px), styl (np. solid), kolor (np. #cccccc) */
+        border: 1px solid #cccccc; 
+        padding: 5px;
+        border-radius: 4px;
+    }
 
-    <h2>Family Information Form</h2>
-
-    <form action="#" method="post">
-        <div>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" required>
-        </div>
-
-        <div>
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" required>
-        </div>
-
-        <div>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-
-        <div>
-            <label for="relationship">Relationship to You:</label>
-            <select id="relationship" name="relationship" required>
-                <option value="">Select Relationship</option>
-                <option value="parent">Parent</option>
-                <option value="sibling">Sibling</option>
-                <option value="child">Child</option>
-                <option value="spouse">Spouse</option>
-            </select>
-        </div>
-
-        <div>
-            <label for="birthdate">Date of Birth:</label>
-            <input type="date" id="birthdate" name="birthdate" required>
-        </div>
-
-        <div>
-            <label for="notes">Additional Information:</label>
-            <textarea id="notes" name="notes" rows="4"></textarea>
-        </div>
-
-        <div>
-            <input type="submit" value="Submit">
-        </div>
-    </form>
-
-</body>
-
-</html>
+    /* Zapewnienie lepszego wizualnego feedbacku przy kliknięciu/focusie */
+    input:focus, select:focus, textarea:focus {
+        border-color: #007bff; /* Zmieniamy tylko kolor ramki */
+        outline: none;
+        /* ➡️ POPRAWIONA WŁAŚCIWOŚĆ BOX-SHADOW ⬅️ */
+        /* Wymaga kolorów w formacie HEX, RGB, RGBA lub nazwy koloru */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    }
+</style>
